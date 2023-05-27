@@ -5177,6 +5177,21 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
   margin-left: auto!important;
 } 
 
+.fe-tag-3:before {
+  width: 100%!important;
+}
+
+.fe-tag-3::before {
+  content: ""!important;
+  display: block!important;
+  width: 94px!important;
+  height: 146px!important;
+  background-image: url('../images/file_icons/card3.svg')!important;
+  /* background-size:auto; */
+  background-position: right!important;
+  margin-left: auto!important;
+} 
+
 .widget-flat i {
   opacity: 1!important;
   width: 100%;
