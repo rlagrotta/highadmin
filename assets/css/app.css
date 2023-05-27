@@ -5076,6 +5076,17 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
   top: -93px!important;
 }
 
+.card3_stats {
+  position: relative;
+  top: -60px;
+  line-height: 42px;
+}
+
+.download-button-3 {
+  top: -16px!important;
+  position: relative;
+}
+
 
 .cards-colM {
   align-self: center;
@@ -5117,7 +5128,7 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
   position: relative;
     display: flex;
     flex-flow: row-reverse;
-    top: -23px;
+    top: -20px;
     width: 100%
 }
 
@@ -5169,5 +5180,9 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
 .widget-flat i {
   opacity: 1!important;
   width: 100%;
+}
+
+.light-text {
+  font-weight: 400!important;
 }
 
