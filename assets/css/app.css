@@ -5043,7 +5043,9 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
 .note {
   margin-top: -36px;
   margin-bottom: 0px!important;
+  line-height: 14.8px!important;
 }
+
 
 .card{
   height: 170px!important;
@@ -5055,6 +5057,23 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.cards-col1 >h1  {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+ .card2_stats {
+  position: relative;
+  top: -60px;
+  line-height: 42px;
+}
+
+.card2_stats > .download-button {
+  position: relative;
+  top: -93px!important;
 }
 
 
@@ -5079,6 +5098,11 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
     z-index: 10;
 }
 
+.card-body__titulo_txt {
+  font-weight: 500;
+  font-size: 12px;
+}
+
 .card-body__titulo_txt_alert-button a {
   margin-left: auto;
 
@@ -5086,7 +5110,7 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
 
 .score-positioning {
   position: relative;
-  top: -40px;
+  top: -46px;
 }
 
 .download-button {
@@ -5094,6 +5118,15 @@ body[data-layout-mode="horizontal"] .responsive-table-plugin .fixed-solution .st
     display: flex;
     flex-flow: row-reverse;
     top: -23px;
+    width: 100%
+}
+
+.download-button-2 {
+  position: relative;
+    display: flex;
+    flex-flow: row-reverse;
+    top: -93px;
+    width: 100%
 }
 
 /* Esto saca los svgs de las tarjetas*/
